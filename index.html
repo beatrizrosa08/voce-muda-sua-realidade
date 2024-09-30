@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Você muda a sua realidade!</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario.jpg" alt="Um quarto roxo">
+            <p>Em um belo dia, você acorda com os cabelos bagunçados, então você decide que vai se arrumar, tomar um café e ir para escola. Você está indo de a pé para lá, e no meio do caminho, você vê uma padaria, e se lembra que esqueceu o seu lanche em casa e pensa em ir pegar um lanchinho na padaria, porém, você olha a hora e vê que se não ir agora para escola, vai chegar atrasada(o), o que você faz?</p>
+            <button class="btn-proximo" data-proximo="1">Ir para a padaria</button>
+            <button class="btn-proximo" data-proximo="2">Continuar caminhando para escola</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/padaria.jpg" alt="Uma padaria">
+            <p> Você decide ir na padaria comprar um lanchinho, quando você chega lá, vê uma coxinha com o preço um tanto quanto caro, você compra a coxinha?</p>
+            <button class="btn-proximo" data-proximo="3">Comprar e ir no balcão pagar</button>
+            <button class="btn-proximo" data-proximo="2">Não comprar e continuar indo para escola</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/irritada.jpg" alt="Uma pessoa irritada">
+            <p>Você decide ir para escola, você chega suada(o) por causa do sol, você chega na sua sala, com fome e com sede, a água da sua garrafinha está quente também, você se irrita e não presta atenção na aula. Você desce para o primeiro intervalo e vê umas pessoas sozinhas, você vai conversar com elas?</p>
+            <button class="btn-proximo" data-proximo="4">Sim</button>
+            <button class="btn-proximo" data-proximo="5">Não</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/padaria.jpg" alt="Uma padaria">
+            <p>Você chega ao balcão com a coxinha em mãos, no balcão você vê uma senhora que é amiga da sua mãe! Vocês conversam um pouco enquanto você paga. Você se despede dela e continua indo para escola. Você chega na segunda aula, tem umas pessoas com você. Você decide conversar ou não?
+            </p>
+            <button class="btn-proximo" data-proximo="4">Sim</button>
+            <button class="btn-proximo" data-proximo="5">Não</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/conversando.png" alt="Pessoas convsersando">
+            <p>Você passa o tempo conversando com eles, você fica feliz que fez novos amigos! Bate o sinal para vocês subirem. Você sobe para sua sala, e fica estudando. Passa o tempo e bate o sinal para o intervalo. Você vê as pessoas que você conversou hoje mais cedo! Você se junta a eles?</p>
+            <button class="btn-proximo" data-proximo="6">Sim</button>
+            <button class="btn-proximo" data-proximo="7">Não</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/sozinha.jpg" alt="Uma pessoa sozinha">
+            <p> Você se senta na mesa da sua escola sozinha(o), vê as pessoas conversando e se sente triste por isso. O sinal bate, você volta pra sala, não presta atenção nas aulas. O sinal bate, você desce para o segundo intervalo, vê de novo as pessoas, você decide conversar? </p>
+            <button class="btn-proximo" data-proximo="6">Sim</button>
+            <button class="btn-proximo" data-proximo="7">Não</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/pensando2.jpg" alt="Pessoa pensando">
+            <p>Vocês ficam conversando até o sinal bater, quando bate, cada um sobe em suas salas. Passa o tempo e chega no segundo intervalo, quando você desce, e as mesmas pessoas estão te esperando! Vocês conversam de monte, riem, jogam jogos de tabuleiros e eles perguntam o seu número. Você decide passar? </p>
+            <button class="btn-proximo" data-proximo="8">Sim</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/comendo.webp" alt="Uma pessoa comendo">
+            <p>Você come e passa o intervalo ainda triste, bate o sinal e você sobe e novamente você não presta atenção nas aulas, chega a hora de ir embora, você olha em volta e vê que seus pais não estão ali, mas ao mesmo tempo você vê o ponto de ônibus. Você vai embora de ônibus ou ligar para seus pais?</p>
+            <button class="btn-proximo" data-proximo="9">ligar</button>
+            <button class="btn-proximo" data-proximo="10">Esperar</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="img/comemorando2.jpg" alt="Pessoas comemorando">
+            <p> Eles comemoram e pegam o seu número e bate o sinal para vocês subirem, cada um vai em suas salas. Passa o tempo, e chega na hora de ir embora, você pega suas coisas e desce para ir embora, os seus amigos estão lá esperando você! Você sorri e conversa um pouco e chega a hora de ir. Você olha em volta e vê que seus pais não estão ali, mas ao mesmo tempo você vê o ponto de ônibus. Você vai embora de ônibus ou ligar para seus pais?</p>
+            <button class="btn-proximo" data-proximo="9">ligar</button>
+            <button class="btn-proximo" data-proximo="10">Esperar</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="img/ligacao.png" alt="Pessoa Ligando">
+            <p> Seus pais falam que estão chegando, você decide esperar. Quando chegam, você já chega falando dos seus novos amigos. No caminho, você viu que o ônibus tinha quebrado! Você agradece por ter ligado para seus pais e chega em casa em segurança e cedo.</p>
+            <button class="btn-proximo" data-proximo="11">Continuar</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img/onibus.jpg" alt="Pessoa Esperando">
+            <p> Você decide esperar o ônibus, você já irritada(o), percebe que o ônibus atrasou, você fica mais irritada(o) ainda, e decide ligar para os seus pais, eles falam que estão a caminho. O tempo passa e os seus pais chegam, você entra no carro MUITO brava(o) e não fala nada o caminho inteiro.</p>
+            <button class="btn-proximo" data-proximo="12">Continuar</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img/fimbom.jpg" alt="Pessoa Dormindo bem">
+            <p> Você se deita na sua cama e fica feliz pelo seu dia! Você dorme e tem uma das melhores noites da sua vida! FIM</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <img src="img/fimruim.jpg" alt="Pessoa Dormindo mal">
+            <p>Você se deita na sua cama e fica triste pelo seu dia. Você dorme e tem uma das piores noites da sua vida. FIM </p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
